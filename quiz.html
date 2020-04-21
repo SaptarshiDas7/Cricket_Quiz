@@ -1,0 +1,202 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Cricket Quiz</title>
+		<link rel="stylesheet" type="text/css" href="quiz.css">
+		
+	</head>
+	
+	
+	<body bgcolor="#9DFF00">
+	<div id="block">
+		<p id="inst">HERE'S A CRICKET QUIZ!!!</p>
+	
+		<p id="heading"><strong>Read the instructions carefully.</strong></p>
+		<ul>
+			<li id="heading">Click on the next question button for next question.</li>
+			<li id="heading">Each correct answer fetches you 6 points.</li>
+			<li id="heading">Each wrong answer fetches you -3 points.</li>
+			<li id="heading">No points are deducted for skipping a question.</li>
+			<li id="heading">You can't come back to a previous question.</li>
+		</ul>
+		
+		<input type="button" class="button" onclick="quiz()" value="Start Quiz!"></button>
+	</div>
+	
+	
+	<div id="ques_block1">
+		<form>
+			<p id="questions">Q1:Who among these 4 has picked the most no. of wickets in IPL?</p>
+			<br>
+			<div id="option"><input type="radio" name="1" id="right1">Lasith Malinga</div>
+			<div id="option"><input type="radio" name="1" id="w11">Amit Mishra</div>
+			<div id="option"><input type="radio" name="1" id="w12">Harbhajan Singh</div>
+			<div id="option"><input type="radio" name="1" id="w13">Sunil Narine</div>
+		</form>
+		
+		<br><br>
+		<input type="button" class="button1" onclick="q2()" value="Next Question"></button>
+	</div>
+	
+	
+	<div id="ques_block2">
+		<form>
+			<p id="questions">Q2:Who was the man of the match in IPL final 2014?</p>
+			<br>
+			<div id="option"><input type="radio" name="2" id="right2">Manish Pandey</div>
+			<div id="option"><input type="radio" name="2" id="w21">Piyush Chawla</div>
+			<div id="option"><input type="radio" name="2" id="w22">Wriddhiman Saha</div>
+			<div id="option"><input type="radio" name="2" id="w23">Yusuf Pathan</div>
+		</form>
+		
+		<br><br>
+		<input type="button" class="button1" onclick="q3()" value="Next Question"></button>
+	</div>
+	
+	
+	<div id="ques_block3">
+		<form>
+			<p id="questions">Q3:Who was the man of the tournament in ICC CWC 2003?</p>
+			<br>
+			<div id="option"><input type="radio" name="3" id="w31">Ricky Ponting</div>
+			<div id="option"><input type="radio" name="3" id="w32">Glenn McGrath</div>
+			<div id="option"><input type="radio" name="3" id="right3">Sachin Tendulkar</div>
+			<div id="option"><input type="radio" name="3" id="w33">Anil Kumble</div>
+		</form>
+		
+		<br><br>
+		<input type="button" class="button1" onclick="q4()" value="Next Question"></button>
+	</div>
+	
+	
+	<div id="ques_block4">
+		<form>
+			<p id="questions">Q4:Again which team did MS Dhoni score a double century in Test?</p>
+			<br>
+			<div id="option"><input type="radio" name="4" id="w41">Sri Lanka</div>
+			<div id="option"><input type="radio" name="4" id="right4">Australia</div>
+			<div id="option"><input type="radio" name="4" id="w42">Pakistan</div>
+			<div id="option"><input type="radio" name="4" id="w43">England</div>
+		</form>
+		
+		<br><br>
+		<input type="button" class="button1" onclick="q5()" value="Next Question"></button>
+	</div>
+	
+	
+	<div id="ques_block5">
+		<form>
+			<p id="questions">Q5:Among these teams, for which team Parthiv Patel has never played?</p>
+			<br>
+			<div id="option"><input type="radio" name="5" id="w51">Chennai Super Kings</div>
+			<div id="option"><input type="radio" name="5" id="w52">Mumbai Indians</div>
+			<div id="option"><input type="radio" name="5" id="right5">Pune Warriors India</div>
+			<div id="option"><input type="radio" name="5" id="w53">Deccan Chargers</div>
+		</form>
+		
+		<br><br>
+		<input type="button" class="button1" onclick="q6()" value="Next Question"></button>
+	</div>
+	
+	
+	<div id="ques_block6">
+		<form>
+			<p id="questions">Q6:Who was the man of the match in 1992 WC final?</p>
+			<br>
+			<div id="option"><input type="radio" name="6" id="w61">Imran Khan</div>
+			<div id="option"><input type="radio" name="6" id="w62">Inzamam Ul Haq</div>
+			<div id="option"><input type="radio" name="6" id="w63">Javed Miandad</div>
+			<div id="option"><input type="radio" name="6" id="right6">Wasim Akram</div>
+		</form>
+		
+		<br><br>
+		<input type="button" class="button1" onclick="q7()" value="Next Question"></button>
+	</div>
+	
+	<div id="ques_block7">
+		<form>
+			<p id="questions">Q7:Who among these guys played in India's 1st ever T20I match?</p>
+			<br>
+			<div id="option"><input type="radio" name="7" id="w71">Yusuf Pathan</div>
+			<div id="option"><input type="radio" name="7" id="w72">Rohit Sharma</div>
+			<div id="option"><input type="radio" name="7" id="right7">Dinesh Karthik</div>
+			<div id="option"><input type="radio" name="7" id="w73">Gautam Gambhir</div>
+		</form>
+		
+		<br><br>
+		<input type="button" class="button1" onclick="q8()" value="Next Question"></button>
+	</div>
+	
+	
+	<div id="ques_block8">
+		<form>
+			<p id="questions">Q8:Who took the 1st ever T20I hattrick?</p>
+			<br>
+			<div id="option"><input type="radio" name="8" id="right8">Brett Lee</div>
+			<div id="option"><input type="radio" name="8" id="w81">Mitchell Johnson</div>
+			<div id="option"><input type="radio" name="8" id="w82">Shaun Pollock</div>
+			<div id="option"><input type="radio" name="8" id="w83">Sohail Tanvir</div>
+		</form>
+		
+		<br><br>
+		<input type="button" class="button1" onclick="q9()" value="Next Question"></button>
+	</div>
+	
+	
+	<div id="ques_block9">
+		<form>
+			<p id="questions">Q9:Who among these 4 did not play in the ICC CWC 2011 final?</p>
+			<br>
+			<div id="option"><input type="radio" name="9" id="w91">Suraj Randiv</div>
+			<div id="option"><input type="radio" name="9" id="right9">Ashish Nehra</div>
+			<div id="option"><input type="radio" name="9" id="w92">Ajantha Mendis</div>
+			<div id="option"><input type="radio" name="9" id="w93">S Sreesanth</div>
+		</form>
+		
+		<br><br>
+		<input type="button" class="button1" onclick="q10()" value="Next Question"></button>
+	</div>
+	
+	
+	<div id="ques_block10">
+		<form>
+			<p id="questions">Q10:Who among these 4 has the best T20 average?</p>
+			<br>
+			<div id="option"><input type="radio" name="10" id="w101">Yuvraj Singh</div>
+			<div id="option"><input type="radio" name="10" id="w102">Surseh Raina</div>
+			<div id="option"><input type="radio" name="10" id="w103">Gautam Gambhir</div>
+			<div id="option"><input type="radio" name="10" id="right10">MS Dhoni</div>
+		</form>
+		
+		<br><br>
+		<input type="button" class="button1" onclick="next()" value="Finish Quiz"></button>
+	</div>
+	
+	
+	
+	<div id="finish_block">
+		<h1><font color="#FC0CC4"><strong>Thanks for attempting the quiz!</strong></h1>
+		<h3><font color="brown">Hope you enjoyed a lot!</h3>
+		<div id="ans_block">
+			<h1><strong><font color="black">Answers</strong></h1>
+			<h2>1.Lasith Malinga</h2>
+			<h2>2.Manish Pandey</h2>
+			<h2>3.Sachin Tendulkar</h2>
+			<h2>4.Australialia</h2>
+			<h2>5.Pune Warriors India</h2>
+			<h2>6.Wasim Akram</h2>
+			<h2>7.Dinesh Karthik</h2>
+			<h2>8.Brett Lee</h2>
+			<h2>9.Ashish Nehra</h2>
+			<h2>10.MS Dhoni</h2>
+			<input type="button" class="button1" onclick="ans()" value="See your result!"></button>
+		</div>
+	</div>
+	
+	<div id="responses">
+	</div>
+	
+	<script type="text/javascript" src="quiz.js"></script>
+	
+	</body>
+</html>
